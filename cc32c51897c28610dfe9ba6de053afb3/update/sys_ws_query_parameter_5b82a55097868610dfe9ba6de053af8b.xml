@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_query_parameter">
+    <sys_ws_query_parameter action="INSERT_OR_UPDATE">
+        <example_value>carlos@email.com</example_value>
+        <name>email</name>
+        <required>false</required>
+        <short_description>email</short_description>
+        <sys_class_name>sys_ws_query_parameter</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-04 16:24:45</sys_created_on>
+        <sys_id>5b82a55097868610dfe9ba6de053af8b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>email</sys_name>
+        <sys_package display_value="Basic Users App" source="x_786590_basic_u_0">cc32c51897c28610dfe9ba6de053afb3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Basic Users App">cc32c51897c28610dfe9ba6de053afb3</sys_scope>
+        <sys_update_name>sys_ws_query_parameter_5b82a55097868610dfe9ba6de053af8b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-04 16:24:45</sys_updated_on>
+        <web_service_definition display_value="User">4c2b891497068610dfe9ba6de053aff1</web_service_definition>
+    </sys_ws_query_parameter>
+</record_update>
