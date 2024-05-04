@@ -9,32 +9,32 @@
         <name>Get User</name>
         <operation_script><![CDATA[(function process(/*RESTAPIRequest*/ request, /*RESTAPIResponse*/ response) {
 
-    var userNumber = request.pathParams.number; // Obtém o número do usuário da requisição
+    var userNumber = request.pathParams.number; // Get the user number from the request
 	var userTable = 'x_786590_basic_u_0_users';
-	var userGR = new GlideRecord(userTable); // Cria um GlideRecord para a tabela de usuários
+	var userGR = new GlideRecord(userTable); // Create a GlideRecord for the users table
 	userGR.addQuery('number',userNumber)
-    // Verifica se o número do usuário foi fornecido
+    // Check if the user number was provided
     if (!userNumber) {
-        response.setStatus(400); // Define o status da resposta para Bad Request
-        return { error: "Número de usuário não fornecido" }; // Retorna uma mensagem de erro
+        response.setStatus(400); // Set the response status to Bad Request
+        return { error: "User number not provided" }; // Return an error message
     }
 
-    // Realiza a consulta na tabela de usuários
+    // Query the users table
     if (userGR.get('number', userNumber)) {
-        // Se o usuário for encontrado, monta o objeto JSON com as informações do usuário
+        // If the user is found, build the JSON object with user information
         var userInfo = {
             sys_id: userGR.getValue('sys_id'),
             name: userGR.getValue('name'),
             email: userGR.getValue('email'),
-            // Adicione outras propriedades que deseja retornar aqui
+            // Add other properties you want to return here
         };
 
-        response.setStatus(200); // Define o status da resposta para OK
-        return userInfo; // Retorna as informações do usuário como JSON
+        response.setStatus(200); // Set the response status to OK
+        return userInfo; // Return the user information as JSON
     } else {
-        // Se o usuário não for encontrado, retorna uma mensagem de erro
-        response.setStatus(404); // Define o status da resposta para Not Found
-        return { error: "Usuário não encontrado" }; // Retorna uma mensagem de erro
+        // If the user is not found, return an error message
+        response.setStatus(404); // Set the response status to Not Found
+        return { error: "User not found" }; // Return an error message
     }
 
 })(request, response);
@@ -52,14 +52,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-05-04 14:54:10</sys_created_on>
         <sys_id>918d49d497068610dfe9ba6de053afe5</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Get User</sys_name>
         <sys_package display_value="Basic Users App" source="x_786590_basic_u_0">cc32c51897c28610dfe9ba6de053afb3</sys_package>
         <sys_policy/>
         <sys_scope display_value="Basic Users App">cc32c51897c28610dfe9ba6de053afb3</sys_scope>
         <sys_update_name>sys_ws_operation_918d49d497068610dfe9ba6de053afe5</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-05-04 16:13:46</sys_updated_on>
+        <sys_updated_on>2024-05-04 16:54:00</sys_updated_on>
         <web_service_definition display_value="User">4c2b891497068610dfe9ba6de053aff1</web_service_definition>
         <web_service_version/>
     </sys_ws_operation>

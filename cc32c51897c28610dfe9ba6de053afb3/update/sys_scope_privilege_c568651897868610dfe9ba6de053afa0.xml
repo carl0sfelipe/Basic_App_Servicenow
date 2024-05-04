@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege">
+    <sys_scope_privilege action="INSERT_OR_UPDATE">
+        <operation>execute</operation>
+        <source_scope display_value="Basic Users App">cc32c51897c28610dfe9ba6de053afb3</source_scope>
+        <status>allowed</status>
+        <sys_class_name>sys_scope_privilege</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-04 16:47:50</sys_created_on>
+        <sys_id>c568651897868610dfe9ba6de053afa0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>GlideRecord.newRecord</sys_name>
+        <sys_package display_value="Basic Users App" source="x_786590_basic_u_0">cc32c51897c28610dfe9ba6de053afb3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Basic Users App">cc32c51897c28610dfe9ba6de053afb3</sys_scope>
+        <sys_update_name>sys_scope_privilege_c568651897868610dfe9ba6de053afa0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-04 16:47:50</sys_updated_on>
+        <target_name>GlideRecord.newRecord</target_name>
+        <target_scope display_value="Global">global</target_scope>
+        <target_type>scriptable</target_type>
+    </sys_scope_privilege>
+</record_update>
