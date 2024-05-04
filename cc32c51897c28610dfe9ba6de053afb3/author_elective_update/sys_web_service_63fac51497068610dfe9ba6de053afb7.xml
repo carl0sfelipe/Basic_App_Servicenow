@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_web_service">
+    <sys_web_service action="DELETE">
+        <active>true</active>
+        <function_name>execute</function_name>
+        <name>CRUD</name>
+        <scoped_name>x_786590_basic_u_0_CRUD</scoped_name>
+        <script><![CDATA[(function scriptedWebServiceOperation(request, response) {
+
+	// Add your code here
+
+})(request, response);]]></script>
+        <short_description/>
+        <sys_class_name>sys_web_service</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-04 14:39:37</sys_created_on>
+        <sys_id>63fac51497068610dfe9ba6de053afb7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CRUD</sys_name>
+        <sys_package display_value="Basic Users App" source="x_786590_basic_u_0">cc32c51897c28610dfe9ba6de053afb3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Basic Users App">cc32c51897c28610dfe9ba6de053afb3</sys_scope>
+        <sys_update_name>sys_web_service_63fac51497068610dfe9ba6de053afb7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-04 14:39:37</sys_updated_on>
+        <wsdl>https://dev230375.service-now.com/x_786590_basic_u_0_CRUD.do?WSDL</wsdl>
+        <wsdl_compliance>false</wsdl_compliance>
+    </sys_web_service>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Basic Users App">cc32c51897c28610dfe9ba6de053afb3</application>
+        <file_path/>
+        <instance_id>2d259c161bb2f990fe1b43f4bd4bcbdf</instance_id>
+        <instance_name>dev230375</instance_name>
+        <name>sys_web_service_63fac51497068610dfe9ba6de053afb7</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_web_service"&gt;&lt;sys_web_service action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;function_name&gt;execute&lt;/function_name&gt;&lt;name&gt;CRUD&lt;/name&gt;&lt;scoped_name&gt;x_786590_basic_u_0_CRUD&lt;/scoped_name&gt;&lt;script&gt;&lt;![CDATA[(function scriptedWebServiceOperation(request, response) {
+
+	// Add your code here
+
+})(request, response);]]&gt;&lt;/script&gt;&lt;short_description/&gt;&lt;sys_class_name&gt;sys_web_service&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-05-04 14:39:37&lt;/sys_created_on&gt;&lt;sys_id&gt;63fac51497068610dfe9ba6de053afb7&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;CRUD&lt;/sys_name&gt;&lt;sys_package display_value="Basic Users App" source="x_786590_basic_u_0"&gt;cc32c51897c28610dfe9ba6de053afb3&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Basic Users App"&gt;cc32c51897c28610dfe9ba6de053afb3&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_web_service_63fac51497068610dfe9ba6de053afb7&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-05-04 14:39:37&lt;/sys_updated_on&gt;&lt;wsdl&gt;https://dev230375.service-now.com/x_786590_basic_u_0_CRUD.do?WSDL&lt;/wsdl&gt;&lt;wsdl_compliance&gt;false&lt;/wsdl_compliance&gt;&lt;/sys_web_service&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-2056738933</payload_hash>
+        <record_name>CRUD</record_name>
+        <reverted_from/>
+        <source>a8ba01d097068610dfe9ba6de053af5d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-04 14:39:37</sys_created_on>
+        <sys_id>320b09d097068610dfe9ba6de053af2a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18f440bd4b90000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-04 14:39:37</sys_updated_on>
+        <type>Scripted Web Service</type>
+        <update_guid>360b09d049068610de690fa95156fb29</update_guid>
+        <update_guid_history>360b09d049068610de690fa95156fb29:-2056738933</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-04 14:39:44</sys_created_on>
+        <sys_db_object display_value="" name="sys_web_service">sys_web_service</sys_db_object>
+        <sys_id>00d9db35a1a44c7381554f3d475fb2a9</sys_id>
+        <sys_metadata>63fac51497068610dfe9ba6de053afb7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CRUD</sys_name>
+        <sys_package display_value="Basic Users App" source="x_786590_basic_u_0">cc32c51897c28610dfe9ba6de053afb3</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Basic Users App">cc32c51897c28610dfe9ba6de053afb3</sys_scope>
+        <sys_scope_delete display_value="">633fbea5777441388dded417e8993e40</sys_scope_delete>
+        <sys_update_name>sys_web_service_63fac51497068610dfe9ba6de053afb7</sys_update_name>
+        <sys_update_version display_value="sys_web_service_63fac51497068610dfe9ba6de053afb7">320b09d097068610dfe9ba6de053af2a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-04 14:39:44</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

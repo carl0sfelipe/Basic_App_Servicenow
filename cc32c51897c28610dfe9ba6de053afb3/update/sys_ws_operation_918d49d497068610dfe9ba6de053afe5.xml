@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_operation">
+    <sys_ws_operation action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <consumes>application/json</consumes>
+        <consumes_customized>false</consumes_customized>
+        <default_operation_uri/>
+        <enforce_acl>cf9d01d3e73003009d6247e603f6a990</enforce_acl>
+        <http_method>GET</http_method>
+        <name>Get User</name>
+        <operation_script><![CDATA[(function process(/*RESTAPIRequest*/ request, /*RESTAPIResponse*/ response) {
+
+    var userNumber = request.pathParams.number; // Get the user number from the request
+	var userTable = 'x_786590_basic_u_0_users';
+	var userGR = new GlideRecord(userTable); // Create a GlideRecord for the users table
+	userGR.addQuery('number',userNumber)
+    // Check if the user number was provided
+    if (!userNumber) {
+        response.setStatus(400); // Set the response status to Bad Request
+        return { error: "User number not provided" }; // Return an error message
+    }
+
+    // Query the users table
+    if (userGR.get('number', userNumber)) {
+        // If the user is found, build the JSON object with user information
+        var userInfo = {
+            sys_id: userGR.getValue('sys_id'),
+            name: userGR.getValue('name'),
+            email: userGR.getValue('email'),
+            // Add other properties you want to return here
+        };
+
+        response.setStatus(200); // Set the response status to OK
+        return userInfo; // Return the user information as JSON
+    } else {
+        // If the user is not found, return an error message
+        response.setStatus(404); // Set the response status to Not Found
+        return { error: "User not found" }; // Return an error message
+    }
+
+})(request, response);
+]]></operation_script>
+        <operation_uri>/api/x_786590_basic_u_0/user/user/{number}</operation_uri>
+        <produces>application/json</produces>
+        <produces_customized>false</produces_customized>
+        <relative_path>/user/{number}</relative_path>
+        <request_example/>
+        <requires_acl_authorization>true</requires_acl_authorization>
+        <requires_authentication>true</requires_authentication>
+        <requires_snc_internal_role>true</requires_snc_internal_role>
+        <short_description/>
+        <sys_class_name>sys_ws_operation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-04 14:54:10</sys_created_on>
+        <sys_id>918d49d497068610dfe9ba6de053afe5</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Get User</sys_name>
+        <sys_package display_value="Basic Users App" source="x_786590_basic_u_0">cc32c51897c28610dfe9ba6de053afb3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Basic Users App">cc32c51897c28610dfe9ba6de053afb3</sys_scope>
+        <sys_update_name>sys_ws_operation_918d49d497068610dfe9ba6de053afe5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-04 16:54:00</sys_updated_on>
+        <web_service_definition display_value="User">4c2b891497068610dfe9ba6de053aff1</web_service_definition>
+        <web_service_version/>
+    </sys_ws_operation>
+</record_update>
