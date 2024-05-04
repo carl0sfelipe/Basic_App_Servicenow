@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="6282cd1897c28610dfe9ba6de053af26" label="Users" max_length="40" name="x_786590_basic_u_0_users" type="collection">
+        <element calculation="var email = current.email; // Change 'email_field_name' to the actual name of your email field&#13;&#10;var emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/; // Regular expression pattern for email validation&#13;&#10;if (!emailPattern.test(email)) {&#13;&#10;    current.setAbortAction(true); // Prevent saving the record&#13;&#10;    gs.addErrorMessage(&quot;Invalid email address&quot;); // Add an error message if the email is invalid&#13;&#10;}&#13;&#10;" label="Email" max_length="40" name="email" type="string"/>
+        <element label="Name" max_length="40" name="name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+    </element>
+</database>
