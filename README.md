@@ -1,3 +1,9 @@
+The purpose of this project is to create a basic backend application in ServiceNow, which can serve as a foundational backend for quick and easy frontend development. ServiceNow provides a powerful platform for developing enterprise applications, and by establishing a basic backend structure, developers can streamline the process of building frontend applications with ServiceNow as the backend.
+
+This backend application includes four main functionalities: retrieving user information by user number, retrieving all users or filtering users by email, creating a new user, and deleting a user record. These functionalities cover essential CRUD (Create, Read, Update, Delete) operations, offering a solid foundation for building more complex applications.
+
+By providing a pre-built backend with commonly used functionalities, developers can focus more on frontend development, user experience, and application logic, rather than spending time on backend setup and implementation. This project aims to simplify the development process, accelerate project timelines, and facilitate rapid prototyping and iteration of frontend applications on the ServiceNow platform.
+
 
 ### GET User
 
@@ -74,16 +80,10 @@ N/A
 ```
 
 #### Body Parameters
-
-- `name`: The name of the new user.
+{
+- `name`: The name of the new user. ,
 - `email`: The email address of the new user.
-
-
-The purpose of this project is to create a basic backend application in ServiceNow, which can serve as a foundational backend for quick and easy frontend development. ServiceNow provides a powerful platform for developing enterprise applications, and by establishing a basic backend structure, developers can streamline the process of building frontend applications with ServiceNow as the backend.
-
-This backend application includes four main functionalities: retrieving user information by user number, retrieving all users or filtering users by email, creating a new user, and deleting a user record. These functionalities cover essential CRUD (Create, Read, Update, Delete) operations, offering a solid foundation for building more complex applications.
-
-By providing a pre-built backend with commonly used functionalities, developers can focus more on frontend development, user experience, and application logic, rather than spending time on backend setup and implementation. This project aims to simplify the development process, accelerate project timelines, and facilitate rapid prototyping and iteration of frontend applications on the ServiceNow platform.
+}
 
 #### Response
 
