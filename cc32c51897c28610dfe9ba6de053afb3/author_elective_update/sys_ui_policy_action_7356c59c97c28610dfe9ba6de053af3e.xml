@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>true</cleared>
+        <disabled>ignore</disabled>
+        <field>email</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-04 14:19:34</sys_created_on>
+        <sys_id>7356c59c97c28610dfe9ba6de053af3e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>email</sys_name>
+        <sys_package display_value="Basic Users App" source="x_786590_basic_u_0">cc32c51897c28610dfe9ba6de053afb3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Basic Users App">cc32c51897c28610dfe9ba6de053afb3</sys_scope>
+        <sys_update_name>sys_ui_policy_action_7356c59c97c28610dfe9ba6de053af3e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-04 14:19:34</sys_updated_on>
+        <table>x_786590_basic_u_0_users</table>
+        <ui_policy display_value="validate email">a345015c97c28610dfe9ba6de053afbc</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="DELETE" query="documentkey=7356c59c97c28610dfe9ba6de053af3e"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Basic Users App">cc32c51897c28610dfe9ba6de053afb3</application>
+        <file_path/>
+        <instance_id>2d259c161bb2f990fe1b43f4bd4bcbdf</instance_id>
+        <instance_name>dev230375</instance_name>
+        <name>sys_ui_policy_action_7356c59c97c28610dfe9ba6de053af3e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>true</cleared><disabled>ignore</disabled><field>email</field><field_message/><field_message_type>none</field_message_type><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-05-04 14:19:34</sys_created_on><sys_id>7356c59c97c28610dfe9ba6de053af3e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>email</sys_name><sys_package display_value="Basic Users App" source="x_786590_basic_u_0">cc32c51897c28610dfe9ba6de053afb3</sys_package><sys_policy/><sys_scope display_value="Basic Users App">cc32c51897c28610dfe9ba6de053afb3</sys_scope><sys_update_name>sys_ui_policy_action_7356c59c97c28610dfe9ba6de053af3e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-05-04 14:19:34</sys_updated_on><table>x_786590_basic_u_0_users</table><ui_policy display_value="validate email">a345015c97c28610dfe9ba6de053afbc</ui_policy><value/><value_action>ignore</value_action><visible>ignore</visible></sys_ui_policy_action><sys_translated_text action="delete_multiple" query="documentkey=7356c59c97c28610dfe9ba6de053af3e"/></record_update>]]></payload>
+        <payload_hash>13410106</payload_hash>
+        <record_name>email</record_name>
+        <reverted_from/>
+        <source>8032c51897c28610dfe9ba6de053afb8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-04 14:19:34</sys_created_on>
+        <sys_id>d176015c97c28610dfe9ba6de053af66</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18f43f97c1b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-04 14:19:34</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>d576015cb5c28610e3027fd5d03e5065</update_guid>
+        <update_guid_history>d576015cb5c28610e3027fd5d03e5065:13410106</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-04 14:22:30</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>0ae20cdccbec408a80cdbb3fd5fd06b1</sys_id>
+        <sys_metadata>7356c59c97c28610dfe9ba6de053af3e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>email</sys_name>
+        <sys_package display_value="Basic Users App" source="x_786590_basic_u_0">cc32c51897c28610dfe9ba6de053afb3</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Basic Users App">cc32c51897c28610dfe9ba6de053afb3</sys_scope>
+        <sys_scope_delete display_value="">633fbea5777441388dded417e8993e40</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_7356c59c97c28610dfe9ba6de053af3e</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_7356c59c97c28610dfe9ba6de053af3e">d176015c97c28610dfe9ba6de053af66</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-04 14:22:30</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

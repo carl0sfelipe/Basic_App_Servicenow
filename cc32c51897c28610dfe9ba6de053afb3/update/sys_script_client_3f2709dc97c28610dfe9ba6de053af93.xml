@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>email</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>check_email</name>
+        <order/>
+        <script><![CDATA[function onSubmit() {
+    var email = g_form.getValue('email'); // Replace 'email_field_name' with the actual name of your email field
+    var emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/; // Regular expression pattern for email validation
+
+    if (!emailPattern.test(email)) {
+        g_form.hideErrorBox('email');
+        g_form.showErrorBox('email', 'Invalid email address'); // Show error message next to the email field
+		return false; // Prevent form submission
+    } else {
+        return true; // Allow form submission if email is valid
+    }
+}
+
+]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-04 14:24:10</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3f2709dc97c28610dfe9ba6de053af93</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>check_email</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Basic Users App" source="x_786590_basic_u_0">cc32c51897c28610dfe9ba6de053afb3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Basic Users App">cc32c51897c28610dfe9ba6de053afb3</sys_scope>
+        <sys_update_name>sys_script_client_3f2709dc97c28610dfe9ba6de053af93</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-04 14:36:05</sys_updated_on>
+        <table>x_786590_basic_u_0_users</table>
+        <type>onSubmit</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>
