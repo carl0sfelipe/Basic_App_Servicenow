@@ -39,7 +39,7 @@ Retrieve information for all users or filter users by email.
 Create a new user with the provided name, email, and password.
 
 - **Method:** POST
-- **Relative Path:** N/A
+- **Relative Path:** `/create_user`
 - **Body Parameters:**
   - `name`: The name of the new user.
   - `email`: The email address of the new user.
