@@ -64,6 +64,23 @@ Delete a user record based on the provided email.
   - Status Code: 404 Not Found
     - Body: JSON object with an error message if no record is found to delete.
 
+###5. POST login
+
+Authenticate a user based on the provided email and password.
+
+Method: POST
+Relative Path: /login
+Body Parameters:
+email: The email address of the user.
+password: The password of the user.
+Response:
+Status Code: 200 OK
+Body: JSON object with a success message indicating successful login and the user's unique identifier (user_id).
+Status Code: 401 Unauthorized
+Body: JSON object with an error message if the provided password is invalid.
+Status Code: 404 Not Found
+Body: JSON object with an error message if the user is not found.
+
 ## Usage
 
 To use this backend application, simply clone the repository and deploy it in your ServiceNow instance. Once deployed, you can start making requests to the provided endpoints to interact with the backend functionalities.
