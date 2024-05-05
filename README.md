@@ -64,7 +64,7 @@ Delete a user record based on the provided email.
   - Status Code: 404 Not Found
     - Body: JSON object with an error message if no record is found to delete.
 
-###5. POST login
+### 5. POST login
 
 Authenticate a user based on the provided email and password.
 
