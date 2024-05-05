@@ -68,18 +68,18 @@ Delete a user record based on the provided email.
 
 Authenticate a user based on the provided email and password.
 
-Method: POST
-Relative Path: /login
-Body Parameters:
-email: The email address of the user.
-password: The password of the user.
-Response:
-Status Code: 200 OK
-Body: JSON object with a success message indicating successful login and the user's unique identifier (user_id).
-Status Code: 401 Unauthorized
-Body: JSON object with an error message if the provided password is invalid.
-Status Code: 404 Not Found
-Body: JSON object with an error message if the user is not found.
+- **Method:** POST
+- **Relative Path:** `/login`
+- **Body Parameters:**
+  - `email`: The email address of the user.
+  - `password`: The password of the user.
+- **Response:**
+  - Status Code: 200 OK
+    - Body: JSON object with a success message indicating successful login and the user's unique identifier (`user_id`).
+  - Status Code: 401 Unauthorized
+    - Body: JSON object with an error message if the provided password is invalid.
+  - Status Code: 404 Not Found
+    - Body: JSON object with an error message if the user is not found.
 
 ## Usage
 
